@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-03T10:29:50.176Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="cryQ1lI_tp6F8XcBdF9M" version="13.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-03T10:30:14.265Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="yKVAGfNjVXEdWDNF6-ND" version="13.7.7" type="github">
   <diagram id="mmgU6nvxnUZtLD-TsOhv" name="Page-1">
     <mxGraphModel dx="815" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -64,8 +64,8 @@
         <mxCell id="DTgmVolfjVIGo2eN_TJI-22" value="done" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="340" y="770" width="145" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DTgmVolfjVIGo2eN_TJI-25" value="create 3 jobs:&lt;br&gt;1. create mobile origin&lt;br&gt;2. create csr, license&lt;br&gt;3. commit origin" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="70" width="130" height="60" as="geometry" />
+        <mxCell id="DTgmVolfjVIGo2eN_TJI-25" value="create 3 jobs:&lt;br&gt;1. create mobile origin (if needed)&lt;br&gt;2. create csr, license&lt;br&gt;3. commit origin (if needed)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="70" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DTgmVolfjVIGo2eN_TJI-26" value="when rpkg found -&lt;br&gt;create zip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="495" y="695" width="110" height="30" as="geometry" />
