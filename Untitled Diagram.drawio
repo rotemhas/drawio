@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T14:02:41.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="rqZNMJdgcdlUZv60CcOG" version="13.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-25T14:02:56.370Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="IzjHpHwbhAAbDc6D6CBb" version="13.7.7" type="github" pages="4">
   <diagram id="mmgU6nvxnUZtLD-TsOhv" name="a2-mobile">
     <mxGraphModel dx="1678" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -308,7 +308,7 @@
           <mxGeometry x="702" y="10" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-32" value="when live generation status is done&lt;br&gt;we show to the user that&lt;br&gt;the application is in status = done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
-          <mxGeometry x="360" y="335" width="200" height="50" as="geometry" />
+          <mxGeometry x="200" y="394" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-34" value="failed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
           <mxGeometry x="380" y="244" width="120" height="60" as="geometry" />
