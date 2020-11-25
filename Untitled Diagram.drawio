@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T14:02:17.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="da_PlnzjTYWI1rxJXqt0" version="13.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-11-25T14:02:41.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="rqZNMJdgcdlUZv60CcOG" version="13.7.7" type="github" pages="4">
   <diagram id="mmgU6nvxnUZtLD-TsOhv" name="a2-mobile">
     <mxGraphModel dx="1678" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -289,6 +289,9 @@
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m3isOP7N1XClN-jHs0Fr-1" source="MSdQMQyOlYTqMlSbS_Y9-25" target="MSdQMQyOlYTqMlSbS_Y9-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="MSdQMQyOlYTqMlSbS_Y9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="m3isOP7N1XClN-jHs0Fr-1" source="MSdQMQyOlYTqMlSbS_Y9-25" target="MSdQMQyOlYTqMlSbS_Y9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-25" value="processing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
           <mxGeometry x="240" y="154" width="120" height="60" as="geometry" />
         </mxCell>
@@ -306,6 +309,9 @@
         </mxCell>
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-32" value="when live generation status is done&lt;br&gt;we show to the user that&lt;br&gt;the application is in status = done" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
           <mxGeometry x="360" y="335" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MSdQMQyOlYTqMlSbS_Y9-34" value="failed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
+          <mxGeometry x="380" y="244" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
