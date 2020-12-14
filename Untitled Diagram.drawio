@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T15:39:01.521Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="q1Lg0M6MQKUCVi9XlZoR" version="13.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-14T07:39:53.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="7v3bzXc0A4fUf5evYunh" version="13.7.7" type="github" pages="4">
   <diagram id="mmgU6nvxnUZtLD-TsOhv" name="a2-mobile">
     <mxGraphModel dx="1678" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -304,7 +304,7 @@
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-31" value="jobs:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
           <mxGeometry x="622" y="10" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MSdQMQyOlYTqMlSbS_Y9-32" value="when live generation status is done&lt;br&gt;we show to the user that&lt;br&gt;the application is in status = done&lt;br&gt;&lt;br&gt;check revision from psessionid = 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
+        <mxCell id="MSdQMQyOlYTqMlSbS_Y9-32" value="when live generation status is done&lt;br&gt;we show to the user that&lt;br&gt;the application is in status = done&lt;br&gt;&lt;br&gt;check revision from psessionid = 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
           <mxGeometry x="200" y="416" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-34" value="failed" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
