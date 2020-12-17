@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T07:39:53.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="7v3bzXc0A4fUf5evYunh" version="13.7.7" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-17T12:59:53.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="VXuRfpTCg8J78ReRGmTg" version="13.7.7" type="github" pages="5">
   <diagram id="mmgU6nvxnUZtLD-TsOhv" name="a2-mobile">
     <mxGraphModel dx="1678" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -318,6 +318,48 @@
         </mxCell>
         <mxCell id="MSdQMQyOlYTqMlSbS_Y9-54" value="live generation" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="m3isOP7N1XClN-jHs0Fr-1">
           <mxGeometry x="569.5" y="486" width="145" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fkmXU2hgP7v2ijVOshdH" name="live generation flow scenarios">
+    <mxGraphModel dx="1042" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="My2lqXotpBx2hMy0TPTO-0" />
+        <mxCell id="My2lqXotpBx2hMy0TPTO-1" parent="My2lqXotpBx2hMy0TPTO-0" />
+        <mxCell id="rMoOMhX80_14dUS8gg4c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="My2lqXotpBx2hMy0TPTO-1" source="rMoOMhX80_14dUS8gg4c-0" target="rMoOMhX80_14dUS8gg4c-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-0" value="create new application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="My2lqXotpBx2hMy0TPTO-1" source="rMoOMhX80_14dUS8gg4c-1" target="rMoOMhX80_14dUS8gg4c-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-5" value="origin is new" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMoOMhX80_14dUS8gg4c-4">
+          <mxGeometry x="0.0438" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="My2lqXotpBx2hMy0TPTO-1" source="rMoOMhX80_14dUS8gg4c-1" target="rMoOMhX80_14dUS8gg4c-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-8" value="origin is not new" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rMoOMhX80_14dUS8gg4c-7">
+          <mxGeometry x="0.2036" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-1" value="live generation finished" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
+          <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-3" value="Frontend revision = 1&lt;br&gt;check revision in papyrus - if doesn&#39;t exist set it to 1&lt;br&gt;compare frontend revision with papyrus revision" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
+          <mxGeometry x="120" y="270" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-6" value="Frontend revision = the old papyrus revision.&lt;br&gt;Check the revision in papyrus - for example revision = 123 (old revision).&lt;br&gt;The frontend revision needs to be equal to the old revision in papyrus." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
+          <mxGeometry x="450" y="270" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rMoOMhX80_14dUS8gg4c-9" value="note - the stage and release process takes time&lt;br&gt;&amp;nbsp;until the release is done completely (~20min)." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
+          <mxGeometry x="445" y="380" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
