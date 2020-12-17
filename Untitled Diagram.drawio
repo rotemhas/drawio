@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T13:05:13.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="LCYlvdGHl7df8CxVikso" version="13.7.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-12-17T13:05:42.676Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36" etag="wFpuW3kvjD1hB9o_IRMB" version="13.7.7" type="github" pages="5">
   <diagram id="mmgU6nvxnUZtLD-TsOhv" name="a2-mobile">
     <mxGraphModel dx="1678" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -358,8 +358,8 @@
         <mxCell id="rMoOMhX80_14dUS8gg4c-6" value="Frontend revision = the old papyrus revision.&lt;br&gt;Check the revision in papyrus - for example revision = 123 (old revision).&lt;br&gt;The frontend revision needs to be equal to the old revision in papyrus." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
           <mxGeometry x="450" y="270" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="rMoOMhX80_14dUS8gg4c-9" value="note - the stage and release process takes time&lt;br&gt;&amp;nbsp;until the release is done completely (~20min).&lt;br&gt;If the new revision from the last release is 1234 the frontend&lt;br&gt;also will be 1234 - in both cases it works.&lt;br&gt;If the release isn&#39;t done (means revision = 123) and live generation&lt;br&gt;is not done the app will be empty." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
-          <mxGeometry x="395" y="380" width="370" height="90" as="geometry" />
+        <mxCell id="rMoOMhX80_14dUS8gg4c-9" value="note - the stage and release process takes time&lt;br&gt;&amp;nbsp;until the release is done completely (~20min).&lt;br&gt;If the new revision from the last release is 1234 the frontend&lt;br&gt;also will be 1234 - in both cases it works.&lt;br&gt;If the release isn&#39;t done (means revision = 123) and live generation&lt;br&gt;is not done the app will be empty -&amp;gt; live_status = &#39;live_generation_finished&#39;&lt;br&gt;and status = &#39;release_finished&#39;." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="My2lqXotpBx2hMy0TPTO-1">
+          <mxGeometry x="375" y="375" width="410" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
