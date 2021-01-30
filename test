@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-29T17:32:49.056Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="f9Ejk_2QXpNFTP-yFgTO" version="14.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-01-30T08:38:56.163Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="H30bjVtD8GhCN_3n5VxM" version="14.2.3" type="github" pages="2">
   <diagram id="GLeRLdwnfvGdfN_CGovY" name="Page-1">
     <mxGraphModel dx="940" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -75,8 +75,13 @@
         <mxCell id="Vy1BrCvkGwUX9Vzbckd8-38" value="backend&lt;br&gt;1. on create/update - updates the db and then the file system" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Vy1BrCvkGwUX9Vzbckd8-1">
           <mxGeometry x="570" y="60" width="140" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="WMCCpYWjUbpstphJBTo2-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="Vy1BrCvkGwUX9Vzbckd8-1" source="Vy1BrCvkGwUX9Vzbckd8-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="638.6666666666667" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Vy1BrCvkGwUX9Vzbckd8-39" value="saves the md5 of all folders" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="Vy1BrCvkGwUX9Vzbckd8-1">
-          <mxGeometry x="539" y="240" width="200" height="150" as="geometry" />
+          <mxGeometry x="540" y="255" width="200" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Vy1BrCvkGwUX9Vzbckd8-72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Vy1BrCvkGwUX9Vzbckd8-1" source="Vy1BrCvkGwUX9Vzbckd8-42" target="Vy1BrCvkGwUX9Vzbckd8-71">
           <mxGeometry relative="1" as="geometry" />
@@ -92,6 +97,9 @@
         </mxCell>
         <mxCell id="Vy1BrCvkGwUX9Vzbckd8-44" value="backend api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Vy1BrCvkGwUX9Vzbckd8-1">
           <mxGeometry x="260" y="105" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMCCpYWjUbpstphJBTo2-0" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Vy1BrCvkGwUX9Vzbckd8-1" source="Vy1BrCvkGwUX9Vzbckd8-45" target="Vy1BrCvkGwUX9Vzbckd8-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vy1BrCvkGwUX9Vzbckd8-45" value="" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#277116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.file_system;" vertex="1" parent="Vy1BrCvkGwUX9Vzbckd8-1">
           <mxGeometry x="780" y="94.5" width="78" height="73" as="geometry" />
