@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T15:40:13.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="sstlBZY_LnArM9f-ihat" version="15.2.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-13T15:41:25.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="IEX0UaKxxqoZRNzJC0wo" version="15.2.4" type="github" pages="2">
   <diagram id="EoZAB-rbVnCAdx4lGUUm" name="Page-1">
     <mxGraphModel dx="1178" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8GEzaAW17lVazoajcyfy" name="Page-2">
-    <mxGraphModel dx="1178" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1178" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="WIqih3qi0tENfkcr_BTV-0" />
         <mxCell id="WIqih3qi0tENfkcr_BTV-1" parent="WIqih3qi0tENfkcr_BTV-0" />
@@ -59,8 +59,14 @@
         <mxCell id="WIqih3qi0tENfkcr_BTV-5" value="&lt;b&gt;Publisher Event Hub -&lt;/b&gt;&lt;br&gt;gets the 3 recommendations." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIqih3qi0tENfkcr_BTV-1">
           <mxGeometry x="550" y="165" width="190" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="Km5rcnPIz0CvuSQdhYW1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIqih3qi0tENfkcr_BTV-1" source="WIqih3qi0tENfkcr_BTV-7" target="Km5rcnPIz0CvuSQdhYW1-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WIqih3qi0tENfkcr_BTV-7" value="&lt;b&gt;Recommendations Processor -&lt;/b&gt;&lt;br&gt;Adds description, remediation steps to the recommendation." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIqih3qi0tENfkcr_BTV-1">
           <mxGeometry x="550" y="290" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Km5rcnPIz0CvuSQdhYW1-0" value="&lt;b&gt;Cosmos DB -&lt;/b&gt;&lt;br&gt;now contains check1,2 and 3.&lt;br&gt;* If the recommendation hasn&#39;t changed it won&#39;t be updated in Cosmos." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIqih3qi0tENfkcr_BTV-1">
+          <mxGeometry x="532.5" y="420" width="225" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
