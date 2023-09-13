@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-12T12:43:35.928Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9dR6LtVw0b1XoFWTLtHt" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T06:51:13.299Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="W3PSQqsMbTKHfNy5EyN3" version="21.7.4" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1838" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Azure Function&lt;br&gt;AutoProvisioning" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="100" height="420" as="geometry" />
+          <mxGeometry x="71" y="40" width="100" height="420" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="40" as="geometry" />
@@ -22,120 +22,120 @@
           <mxGeometry x="45" y="332" width="10" height="58" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Cosmos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="242" y="40" width="100" height="420" as="geometry" />
+          <mxGeometry x="273" y="40" width="100" height="420" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="310" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-7" value="Get InProgress Tenants" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6" edge="1">
           <mxGeometry x="0.0028" relative="1" as="geometry">
-            <mxPoint x="195" y="130" as="sourcePoint" />
+            <mxPoint x="226" y="130" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="180" y="120" />
+              <mxPoint x="211" y="120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="List&amp;lt;MdcCustomer&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="144" as="sourcePoint" />
+            <mxPoint x="296" y="144" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="190" y="144" />
+              <mxPoint x="221" y="144" />
             </Array>
-            <mxPoint x="100" y="144" as="targetPoint" />
+            <mxPoint x="131" y="144" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-1" value="MTP" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="424" y="40" width="100" height="370" as="geometry" />
+          <mxGeometry x="466" y="40" width="100" height="410" as="geometry" />
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="b4lbpdpAouATNFra2iNW-1">
           <mxGeometry x="45" y="80" width="10" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="b4lbpdpAouATNFra2iNW-3" value="GET Provisioning(tenantId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" target="b4lbpdpAouATNFra2iNW-2">
-          <mxGeometry x="0.4722" relative="1" as="geometry">
-            <mxPoint x="95" y="178" as="sourcePoint" />
+        <mxCell id="b4lbpdpAouATNFra2iNW-3" value="&amp;nbsp;for each InProgress tenant: GET Provisioning(tenantId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" target="b4lbpdpAouATNFra2iNW-2">
+          <mxGeometry x="0.1979" y="-2" relative="1" as="geometry">
+            <mxPoint x="126" y="178" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="186" y="178" />
+              <mxPoint x="217" y="178" />
             </Array>
-            <mxPoint x="455" y="178" as="targetPoint" />
+            <mxPoint x="486" y="178" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-4" value="200 OK {&quot;Provisioned&quot;}" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="b4lbpdpAouATNFra2iNW-2" target="aM9ryv3xv72pqoxQDRHE-4">
           <mxGeometry x="-0.4556" y="1" relative="1" as="geometry">
-            <mxPoint x="455" y="199" as="sourcePoint" />
+            <mxPoint x="486" y="199" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="196" y="199" />
+              <mxPoint x="227" y="199" />
             </Array>
-            <mxPoint x="100" y="200" as="targetPoint" />
+            <mxPoint x="131" y="200" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b4lbpdpAouATNFra2iNW-7" value="POST Provisioning(tenantId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
-          <mxGeometry x="0.5278" relative="1" as="geometry">
-            <mxPoint x="95" y="309" as="sourcePoint" />
+        <mxCell id="b4lbpdpAouATNFra2iNW-7" value="for each tenant: POST Provisioning(tenantId)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" target="b4lbpdpAouATNFra2iNW-2">
+          <mxGeometry x="0.3714" y="-1" relative="1" as="geometry">
+            <mxPoint x="126" y="309" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="186" y="309" />
+              <mxPoint x="217" y="309" />
             </Array>
-            <mxPoint x="469" y="309" as="targetPoint" />
+            <mxPoint x="500" y="309" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-8" value="200 OK {&quot;InProgress&quot;}" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
           <mxGeometry x="-0.5278" y="-2" relative="1" as="geometry">
-            <mxPoint x="469" y="331" as="sourcePoint" />
+            <mxPoint x="510" y="331" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="196" y="331" />
+              <mxPoint x="227" y="331" />
             </Array>
-            <mxPoint x="95" y="331" as="targetPoint" />
+            <mxPoint x="126" y="331" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-9" value="Update tenants (status=InProgress)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry x="0.0028" relative="1" as="geometry">
-            <mxPoint x="95" y="360" as="sourcePoint" />
+            <mxPoint x="126" y="360" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="360" />
+              <mxPoint x="216" y="360" />
             </Array>
-            <mxPoint x="287" y="360" as="targetPoint" />
+            <mxPoint x="318" y="360" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="85" y="160" width="10" height="50" as="geometry" />
+          <mxGeometry x="116" y="160" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="85" y="220" width="10" height="70" as="geometry" />
+          <mxGeometry x="116" y="220" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-12" value="Get 200 NotProvisioned Tenants" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry x="0.0028" relative="1" as="geometry">
-            <mxPoint x="96" y="267" as="sourcePoint" />
+            <mxPoint x="127" y="267" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="181" y="267" />
+              <mxPoint x="212" y="267" />
             </Array>
-            <mxPoint x="288" y="267" as="targetPoint" />
+            <mxPoint x="319" y="267" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-13" value="List&amp;lt;MdcCustomer&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="287" y="286" as="sourcePoint" />
+            <mxPoint x="318" y="286" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="200" y="286" />
+              <mxPoint x="231" y="286" />
             </Array>
-            <mxPoint x="95" y="286" as="targetPoint" />
+            <mxPoint x="126" y="286" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="85" y="349" width="10" height="17" as="geometry" />
+          <mxGeometry x="116" y="349" width="10" height="17" as="geometry" />
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="85" y="401" as="sourcePoint" />
-            <mxPoint x="85" y="381" as="targetPoint" />
+            <mxPoint x="116" y="401" as="sourcePoint" />
+            <mxPoint x="116" y="381" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="75" y="411" />
-              <mxPoint x="45" y="381" />
+              <mxPoint x="106" y="411" />
+              <mxPoint x="76" y="381" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -146,21 +146,21 @@
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-18" value="Set tenants status to Provisioned" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry x="0.0028" relative="1" as="geometry">
-            <mxPoint x="95" y="232" as="sourcePoint" />
+            <mxPoint x="126" y="232" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="180" y="232" />
+              <mxPoint x="211" y="232" />
             </Array>
-            <mxPoint x="287" y="232" as="targetPoint" />
+            <mxPoint x="318" y="232" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="b4lbpdpAouATNFra2iNW-21" value="Update tenants (status=Provisioned)" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry x="0.0028" relative="1" as="geometry">
-            <mxPoint x="95" y="410" as="sourcePoint" />
+            <mxPoint x="126" y="410" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="185" y="410" />
+              <mxPoint x="216" y="410" />
             </Array>
-            <mxPoint x="287" y="410" as="targetPoint" />
+            <mxPoint x="318" y="410" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
