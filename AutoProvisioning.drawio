@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-03T10:57:08.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NUT2i22AqRHKAvMe8YKq" version="22.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-03T10:59:37.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bXP4EPCvjzm38mKlF3Ul" version="22.1.5" type="github" pages="3">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1102" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,14 +244,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kuniNy63UJSaVEbGFjQ9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kuniNy63UJSaVEbGFjQ9-19" target="kuniNy63UJSaVEbGFjQ9-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kuniNy63UJSaVEbGFjQ9-27" value="in case of&lt;br&gt;repeated error" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kuniNy63UJSaVEbGFjQ9-26">
-          <mxGeometry x="-0.2106" y="6" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="kuniNy63UJSaVEbGFjQ9-19" value="MTP Provisioning service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="390" y="410" width="310" height="190" as="geometry" />
         </mxCell>
@@ -285,7 +277,7 @@
         <mxCell id="kuniNy63UJSaVEbGFjQ9-14" value="MdcTenantStatus = NotRelevant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="770" y="400" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kuniNy63UJSaVEbGFjQ9-15" value="MdcTenantStatus = WaitingForMtpProvisioning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="kuniNy63UJSaVEbGFjQ9-15" value="MdcTenantStatus = MtpProvisioningInProcess" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="770" y="290" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kuniNy63UJSaVEbGFjQ9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.003;entryY=0.424;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kuniNy63UJSaVEbGFjQ9-2" target="kuniNy63UJSaVEbGFjQ9-14">
@@ -326,6 +318,9 @@
           <mxGeometry x="0.257" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kuniNy63UJSaVEbGFjQ9-32" value="MdcTenantStatus = New" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="210" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
