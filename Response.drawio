@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T08:26:40.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Hdw8E2qAtlO_UEGNYD3h" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-31T08:27:31.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="TRRUTFhskG2RMWQcgxao" version="24.1.0" type="github">
   <diagram name="Page-1" id="lKkpOl0N-vDJBf6Z6UZ7">
-    <mxGraphModel dx="1688" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1551" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3rE0xgJi3MGNeFt5-G63-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3rE0xgJi3MGNeFt5-G63-1" target="3rE0xgJi3MGNeFt5-G63-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3rE0xgJi3MGNeFt5-G63-1" value="SCC UI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3rE0xgJi3MGNeFt5-G63-1" value="SCC UI" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="80" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rE0xgJi3MGNeFt5-G63-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3rE0xgJi3MGNeFt5-G63-2" target="3rE0xgJi3MGNeFt5-G63-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3rE0xgJi3MGNeFt5-G63-2" value="Proxy&lt;div&gt;(Nibiru)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3rE0xgJi3MGNeFt5-G63-2" value="Proxy&lt;div&gt;(Nibiru)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="340" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rE0xgJi3MGNeFt5-G63-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3rE0xgJi3MGNeFt5-G63-4" target="3rE0xgJi3MGNeFt5-G63-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3rE0xgJi3MGNeFt5-G63-4" value="Our service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3rE0xgJi3MGNeFt5-G63-4" value="Our service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="610" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rE0xgJi3MGNeFt5-G63-7" value="Creates a token with its first part app +&lt;div&gt;our audience (we need first part app of our own&lt;/div&gt;&lt;div&gt;in order to define an audience)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="3rE0xgJi3MGNeFt5-G63-8" value="1. Whitelist their first part app (proxy&#39;s)&lt;div&gt;2. Defines the audience&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="570" y="90" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3rE0xgJi3MGNeFt5-G63-9" value="MTP&lt;div&gt;authorization service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3rE0xgJi3MGNeFt5-G63-9" value="MTP&lt;div&gt;authorization service&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="610" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3rE0xgJi3MGNeFt5-G63-11" value="We send a token with our first party app + MTP audience" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
