@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T12:08:47.490Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="n7pTvjMjHUmK9HuQfT85" version="23.1.5" type="github" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.4" pages="6">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2714" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -420,10 +420,109 @@
     </mxGraphModel>
   </diagram>
   <diagram id="RTAhg7s3H5eJKaNBHtnx" name="Page-4">
-    <mxGraphModel dx="2714" dy="1416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1534" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-1" target="eTEJD_BPqWbgDhkEPqFM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-27" value="token first party app" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTEJD_BPqWbgDhkEPqFM-26">
+          <mxGeometry x="-0.0236" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-1" target="eTEJD_BPqWbgDhkEPqFM-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-30" value="token first party app" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTEJD_BPqWbgDhkEPqFM-29">
+          <mxGeometry x="-0.0425" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="110" width="330" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11" y="110" width="330" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-3" value="Tenant Eligibility" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="68" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-4" value="MTP (365)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="136" y="68" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-5" target="eTEJD_BPqWbgDhkEPqFM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-5" value="Follower&lt;div&gt;access policies - MI of tenant eligibility&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="558" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-7" value="Get Status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-8" target="eTEJD_BPqWbgDhkEPqFM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-10" value="every 6h&lt;div&gt;for 800K&lt;/div&gt;&lt;div&gt;tenants&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTEJD_BPqWbgDhkEPqFM-9">
+          <mxGeometry x="-0.0298" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-8" value="Service - get status (for workload)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-11" target="eTEJD_BPqWbgDhkEPqFM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-14" value="every time there&#39;s&lt;div&gt;a new MDC tenant&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTEJD_BPqWbgDhkEPqFM-13">
+          <mxGeometry x="0.0549" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-11" value="Provisioning (auto onboarding)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-12" value="Service - provision" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-15" value="whitelist - MDC app id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-16" target="eTEJD_BPqWbgDhkEPqFM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-20" value="new tenants" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTEJD_BPqWbgDhkEPqFM-19">
+          <mxGeometry x="-0.3659" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-16" value="Tenant store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.681;entryY=-0.064;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eTEJD_BPqWbgDhkEPqFM-16" target="eTEJD_BPqWbgDhkEPqFM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-18" value="every 1h" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eTEJD_BPqWbgDhkEPqFM-17">
+          <mxGeometry x="-0.3176" y="-4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-21" value="Pricing DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="660" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-23" value="Cosmos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-24" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-25" value="MsGraph" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="170" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTEJD_BPqWbgDhkEPqFM-28" value="Tenant Store" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
